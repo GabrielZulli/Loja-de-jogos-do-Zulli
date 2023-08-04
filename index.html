@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Loja de jogos do zulli</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+             <input type="checkbox" id="menu" class="container__botao">
+             <label for="menu">
+               <span class="cabecalho_menu-hambuerguer container__imagem" ></span>
+    </label>
+    <ul class="lista-menu">
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Favoritos</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Carrinho</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Navegar</a>
+        </li>
+    </ul>
+    <h1 class="container__titulo"><b class="container__titulo--negrito">Loja de jogos</b> do Zulli</h1> 
+    </div>
+
+    <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+        <label for="opcoes-menu">
+        <li class="opcoes__itens">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+            <li class="lista-menu_item">
+        <a href="#" class="lista-menu_link">Favoritos</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Carrinho</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Navegar</a>
+            </li>
+        </ul>
+
+        <li class="opcoes__itens"><a href="#" class="opcoes__link">Carrinho</a></li>
+        <li class="opcoes__itens"><a href="#" class="opcoes__link">Navegar</a></li>
+    </ul>
+
+    <div class="container">
+        <a href="#" class="container__link">
+            <img src="imagens/Usuário.svg" alt="Meu perfil">
+            <p class="container__texto"> Meu perfil</p>
+        </a>
+    </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Pesquise sobre seus jogos aqui!</h2>
+        <p class="banner_texto">Aqui você encontra todos os seus jogos favoritos.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual sera sua proxima aventura?">
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel_titulo">Mais populares</h2>
+        <!-- Slider main container -->
+        <div class="carrosel__container">
+<div class="swiper">
+
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="imagens/callofduty.jpg" alt="Call of duty"> </div>
+      <div class="swiper-slide"><img src="imagens/counterstrike.jpeg" alt="Counter strike"></div>
+      <div class="swiper-slide"><img src="imagens/fifa23.jpeg" alt="Fifa 23"></div>
+      <div class="swiper-slide"><img src="imagens/fortnet.jpeg" alt="Fortnet"></div>
+      <div class="swiper-slide"><img src="imagens/godofwar.jpeg" alt="God of war"></div>
+      <div class="swiper-slide"><img src="imagens/grandtheftautoV.jpeg" alt="Feand thef auto V"></div>
+      ...
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+    <div class="card">
+        <div class="card_descricao"></div>
+        <div class="descricao">
+            <h3 class="descricao__titulo">Em base nas suas pesquisas, você ira gostar de...</h3>
+            <h2 class="descricao__titulo-jogo">Free fire</h2>
+            <p class="descricao__texto">Free Fire[a] é um jogo eletrônico mobile de ação-aventura do gênero battle royale, criado pela desenvolvedora vietnamita 111dots Studio e publicado pela Garena</p>
+        </div>
+        <div class="card__botoes">
+            <ul class="botoes">
+                <li class="botoes__item"><img src="imagens/Favoritos.svg" alt="Favoritar"></li>       
+        </ul>
+        <a href="#" class="botoes__ancora">Compre agora</a>
+        </div>
+    </div>
+</div>
+</section>
+
+    <section class="topico">
+        <h2 class="topicos__titulo">TOPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Aventura</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Ação</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Terror</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Lançamentos</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Pre-venda</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Ubisoft</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Capcom</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Warner</a>
+            </li>
+        </ul>
+    </section>
+       <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro dos lançamentos e novidades sobre seus jogos favoritos!</h2>  
+            <p class="contato__texto">Novidades, lançamentos, promoções e pré-venda de seus jogos por e-mail.</p>
+        </div>
+            <input type="email" placeholder="cadastre seu e-mail" class="contato__email">
+        </section>
+
+        <hr/>
+
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Loja de jogos do Zulli</h2>
+        </footer>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 3,
+        pagination: {
+     el: '.swiper-pagination',
+     type: 'bullets'
+       },
+    });
+    </script>
+    
+</body>
+
+</html>
